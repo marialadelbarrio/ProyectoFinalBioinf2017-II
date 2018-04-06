@@ -1,0 +1,6 @@
+Tipo de Análisis a realizar: 
+
+Genómica poblacional con SNPs, para el pez endémico del Golfo de California *Scomberomorus concolor* (sierra del Golfo).
+Se utilizarán datos propios, y el protocolo utilizado es RADcap (una variante de ddRAD que se describe en este paper: https://www.biorxiv.org/content/early/2016/06/15/049114).
+Ya se cuenta con datos de un experimento piloto realizado con 8 individuos, que será utilizado como genoma de referencia. 
+
