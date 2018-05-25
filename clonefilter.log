@@ -1,418 +1,0 @@
-Processing paired-end data.
-Searching for index oligo (i5 Illumina read).
-Found 1 paired input file(s).
-Processing file 1 of 1 [S_concolor_Pool3.1.fq.gz]
-  Reading data from:
-  /tmpu/pindaro_g/cdm_a/maria/RADcap/raw/S_concolor_Pool3.1.fq.gz and
-  /tmpu/pindaro_g/cdm_a/maria/RADcap/raw/S_concolor_Pool3.2.fq.gz
-  Processing RAD-Tag 10000         Processing RAD-Tag 20000         Processing RAD-Tag 30000         Processing RAD-Tag 40000         Processing RAD-Tag 50000         Processing RAD-Tag 60000         Processing RAD-Tag 70000         Processing RAD-Tag 80000         Processing RAD-Tag 90000         Processing RAD-Tag 100000         Processing RAD-Tag 110000         Processing RAD-Tag 120000         Processing RAD-Tag 130000         Processing RAD-Tag 140000         Processing RAD-Tag 150000         Processing RAD-Tag 160000         Processing RAD-Tag 170000         Processing RAD-Tag 180000         Processing RAD-Tag 190000         Processing RAD-Tag 200000         Processing RAD-Tag 210000         Processing RAD-Tag 220000         Processing RAD-Tag 230000         Processing RAD-Tag 240000         Processing RAD-Tag 250000         Processing RAD-Tag 260000         Processing RAD-Tag 270000         Processing RAD-Tag 280000         Processing RAD-Tag 290000         Processing RAD-Tag 300000         Processing RAD-Tag 310000         Processing RAD-Tag 320000         Processing RAD-Tag 330000         Processing RAD-Tag 340000         Processing RAD-Tag 350000         Processing RAD-Tag 360000         Processing RAD-Tag 370000         Processing RAD-Tag 380000         Processing RAD-Tag 390000         Processing RAD-Tag 400000         Processing RAD-Tag 410000         Processing RAD-Tag 420000         Processing RAD-Tag 430000         Processing RAD-Tag 440000         Processing RAD-Tag 450000         Processing RAD-Tag 460000         Processing RAD-Tag 470000         Processing RAD-Tag 480000         Processing RAD-Tag 490000         Processing RAD-Tag 500000         Processing RAD-Tag 510000         Processing RAD-Tag 520000         Processing RAD-Tag 530000         Processing RAD-Tag 540000         Processing RAD-Tag 550000         Processing RAD-Tag 560000         Processing RAD-Tag 570000         Processing RAD-Tag 580000         Processing RAD-Tag 590000         Processing RAD-Tag 600000         Processing RAD-Tag 610000         Processing RAD-Tag 620000         Processing RAD-Tag 630000         Processing RAD-Tag 640000         Processing RAD-Tag 650000         Processing RAD-Tag 660000         Processing RAD-Tag 670000         Processing RAD-Tag 680000         Processing RAD-Tag 690000         Processing RAD-Tag 700000         Processing RAD-Tag 710000         Processing RAD-Tag 720000         Processing RAD-Tag 730000         Processing RAD-Tag 740000         Processing RAD-Tag 750000         Processing RAD-Tag 760000         Processing RAD-Tag 770000         Processing RAD-Tag 780000         Processing RAD-Tag 790000         Processing RAD-Tag 800000         Processing RAD-Tag 810000         Processing RAD-Tag 820000         Processing RAD-Tag 830000         Processing RAD-Tag 840000         Processing RAD-Tag 850000         Processing RAD-Tag 860000         Processing RAD-Tag 870000         Processing RAD-Tag 880000         Processing RAD-Tag 890000         Processing RAD-Tag 900000         Processing RAD-Tag 910000         Processing RAD-Tag 920000         Processing RAD-Tag 930000         Processing RAD-Tag 940000         Processing RAD-Tag 950000         Processing RAD-Tag 960000         Processing RAD-Tag 970000         Processing RAD-Tag 980000         Processing RAD-Tag 990000         Processing RAD-Tag 1000000         Processing RAD-Tag 1010000         Processing RAD-Tag 1020000         Processing RAD-Tag 1030000         Processing RAD-Tag 1040000         Processing RAD-Tag 1050000         Processing RAD-Tag 1060000         Processing RAD-Tag 1070000         Processing RAD-Tag 1080000         Processing RAD-Tag 1090000         Processing RAD-Tag 1100000         Processing RAD-Tag 1110000         Processing RAD-Tag 1120000         Processing RAD-Tag 1130000         Processing RAD-Tag 1140000         Processing RAD-Tag 1150000         Processing RAD-Tag 1160000         Processing RAD-Tag 1170000         Processing RAD-Tag 1180000         Processing RAD-Tag 1190000         Processing RAD-Tag 1200000         Processing RAD-Tag 1210000         Processing RAD-Tag 1220000         Processing RAD-Tag 1230000         Processing RAD-Tag 1240000         Processing RAD-Tag 1250000         Processing RAD-Tag 1260000         Processing RAD-Tag 1270000         Processing RAD-Tag 1280000         Processing RAD-Tag 1290000         Processing RAD-Tag 1300000         Processing RAD-Tag 1310000         Processing RAD-Tag 1320000         Processing RAD-Tag 1330000         Processing RAD-Tag 1340000         Processing RAD-Tag 1350000         Processing RAD-Tag 1360000         Processing RAD-Tag 1370000         Processing RAD-Tag 1380000         Processing RAD-Tag 1390000         Processing RAD-Tag 1400000         Processing RAD-Tag 1410000         Processing RAD-Tag 1420000         Processing RAD-Tag 1430000         Processing RAD-Tag 1440000         Processing RAD-Tag 1450000         Processing RAD-Tag 1460000         Processing RAD-Tag 1470000         Processing RAD-Tag 1480000         Processing RAD-Tag 1490000         Processing RAD-Tag 1500000         Processing RAD-Tag 1510000         Processing RAD-Tag 1520000         Processing RAD-Tag 1530000         Processing RAD-Tag 1540000         Processing RAD-Tag 1550000         Processing RAD-Tag 1560000         Processing RAD-Tag 1570000         Processing RAD-Tag 1580000         Processing RAD-Tag 1590000         Processing RAD-Tag 1600000         Processing RAD-Tag 1610000         Processing RAD-Tag 1620000         Processing RAD-Tag 1630000         Processing RAD-Tag 1640000         Processing RAD-Tag 1650000         Processing RAD-Tag 1660000         Processing RAD-Tag 1670000         Processing RAD-Tag 1680000         Processing RAD-Tag 1690000         Processing RAD-Tag 1700000         Processing RAD-Tag 1710000         Processing RAD-Tag 1720000         Processing RAD-Tag 1730000         Processing RAD-Tag 1740000         Processing RAD-Tag 1750000         Processing RAD-Tag 1760000         Processing RAD-Tag 1770000         Processing RAD-Tag 1780000         Processing RAD-Tag 1790000         Processing RAD-Tag 1800000         Processing RAD-Tag 1810000         Processing RAD-Tag 1820000         Processing RAD-Tag 1830000         Processing RAD-Tag 1840000         Processing RAD-Tag 1850000         Processing RAD-Tag 1860000         Processing RAD-Tag 1870000         Processing RAD-Tag 1880000         Processing RAD-Tag 1890000         Processing RAD-Tag 1900000         Processing RAD-Tag 1910000         Processing RAD-Tag 1920000         Processing RAD-Tag 1930000         Processing RAD-Tag 1940000         Processing RAD-Tag 1950000         Processing RAD-Tag 1960000         Processing RAD-Tag 1970000         Processing RAD-Tag 1980000         Processing RAD-Tag 1990000         Processing RAD-Tag 2000000         Processing RAD-Tag 2010000         Processing RAD-Tag 2020000         Processing RAD-Tag 2030000         Processing RAD-Tag 2040000         Processing RAD-Tag 2050000         Processing RAD-Tag 2060000         Processing RAD-Tag 2070000         Processing RAD-Tag 2080000         Processing RAD-Tag 2090000         Processing RAD-Tag 2100000         Processing RAD-Tag 2110000         Processing RAD-Tag 2120000         Processing RAD-Tag 2130000         Processing RAD-Tag 2140000         Processing RAD-Tag 2150000         Processing RAD-Tag 2160000         Processing RAD-Tag 2170000         Processing RAD-Tag 2180000         Processing RAD-Tag 2190000         Processing RAD-Tag 2200000         Processing RAD-Tag 2210000         Processing RAD-Tag 2220000         Processing RAD-Tag 2230000         Processing RAD-Tag 2240000         Processing RAD-Tag 2250000         Processing RAD-Tag 2260000         Processing RAD-Tag 2270000         Processing RAD-Tag 2280000         Processing RAD-Tag 2290000         Processing RAD-Tag 2300000         Processing RAD-Tag 2310000         Processing RAD-Tag 2320000         Processing RAD-Tag 2330000         Processing RAD-Tag 2340000         Processing RAD-Tag 2350000         Processing RAD-Tag 2360000         Processing RAD-Tag 2370000         Processing RAD-Tag 2380000         Processing RAD-Tag 2390000         Processing RAD-Tag 2400000         Processing RAD-Tag 2410000         Processing RAD-Tag 2420000         Processing RAD-Tag 2430000         Processing RAD-Tag 2440000         Processing RAD-Tag 2450000         Processing RAD-Tag 2460000         Processing RAD-Tag 2470000         Processing RAD-Tag 2480000         Processing RAD-Tag 2490000         Processing RAD-Tag 2500000         Processing RAD-Tag 2510000         Processing RAD-Tag 2520000         Processing RAD-Tag 2530000         Processing RAD-Tag 2540000         Processing RAD-Tag 2550000         Processing RAD-Tag 2560000         Processing RAD-Tag 2570000         Processing RAD-Tag 2580000         Processing RAD-Tag 2590000         Processing RAD-Tag 2600000         Processing RAD-Tag 2610000         Processing RAD-Tag 2620000         Processing RAD-Tag 2630000         Processing RAD-Tag 2640000         Processing RAD-Tag 2650000         Processing RAD-Tag 2660000         Processing RAD-Tag 2670000         Processing RAD-Tag 2680000         Processing RAD-Tag 2690000         Processing RAD-Tag 2700000         Processing RAD-Tag 2710000         Processing RAD-Tag 2720000         Processing RAD-Tag 2730000         Processing RAD-Tag 2740000         Processing RAD-Tag 2750000         Processing RAD-Tag 2760000         Processing RAD-Tag 2770000         Processing RAD-Tag 2780000         Processing RAD-Tag 2790000         Processing RAD-Tag 2800000         Processing RAD-Tag 2810000         Processing RAD-Tag 2820000         Processing RAD-Tag 2830000         Processing RAD-Tag 2840000         Processing RAD-Tag 2850000         Processing RAD-Tag 2860000         Processing RAD-Tag 2870000         Processing RAD-Tag 2880000         Processing RAD-Tag 2890000         Processing RAD-Tag 2900000         Processing RAD-Tag 2910000         Processing RAD-Tag 2920000         Processing RAD-Tag 2930000         Processing RAD-Tag 2940000         Processing RAD-Tag 2950000         Processing RAD-Tag 2960000         Processing RAD-Tag 2970000         Processing RAD-Tag 2980000         Processing RAD-Tag 2990000         Processing RAD-Tag 3000000         Processing RAD-Tag 3010000         Processing RAD-Tag 3020000         Processing RAD-Tag 3030000         Processing RAD-Tag 3040000         Processing RAD-Tag 3050000         Processing RAD-Tag 3060000         Processing RAD-Tag 3070000         Processing RAD-Tag 3080000         Processing RAD-Tag 3090000         Processing RAD-Tag 3100000         Processing RAD-Tag 3110000         Processing RAD-Tag 3120000         Processing RAD-Tag 3130000         Processing RAD-Tag 3140000         Processing RAD-Tag 3150000         Processing RAD-Tag 3160000         Processing RAD-Tag 3170000         Processing RAD-Tag 3180000         Processing RAD-Tag 3190000         Processing RAD-Tag 3200000         Processing RAD-Tag 3210000         Processing RAD-Tag 3220000         Processing RAD-Tag 3230000         Processing RAD-Tag 3240000         Processing RAD-Tag 3250000         Processing RAD-Tag 3260000         Processing RAD-Tag 3270000         Processing RAD-Tag 3280000         Processing RAD-Tag 3290000         Processing RAD-Tag 3300000         Processing RAD-Tag 3310000         Processing RAD-Tag 3320000         Processing RAD-Tag 3330000         Processing RAD-Tag 3340000         Processing RAD-Tag 3350000         Processing RAD-Tag 3360000         Processing RAD-Tag 3370000         Processing RAD-Tag 3380000         Processing RAD-Tag 3390000         Processing RAD-Tag 3400000         Processing RAD-Tag 3410000         Processing RAD-Tag 3420000         Processing RAD-Tag 3430000         Processing RAD-Tag 3440000         Processing RAD-Tag 3450000         Processing RAD-Tag 3460000         Processing RAD-Tag 3470000         Processing RAD-Tag 3480000         Processing RAD-Tag 3490000         Processing RAD-Tag 3500000         Processing RAD-Tag 3510000         Processing RAD-Tag 3520000         Processing RAD-Tag 3530000         Processing RAD-Tag 3540000         Processing RAD-Tag 3550000         Processing RAD-Tag 3560000         Processing RAD-Tag 3570000         Processing RAD-Tag 3580000         Processing RAD-Tag 3590000         Processing RAD-Tag 3600000         Processing RAD-Tag 3610000         Processing RAD-Tag 3620000         Processing RAD-Tag 3630000         Processing RAD-Tag 3640000         Processing RAD-Tag 3650000         Processing RAD-Tag 3660000         Processing RAD-Tag 3670000         Processing RAD-Tag 3680000         Processing RAD-Tag 3690000         Processing RAD-Tag 3700000         Processing RAD-Tag 3710000         Processing RAD-Tag 3720000         Processing RAD-Tag 3730000         Processing RAD-Tag 3740000         Processing RAD-Tag 3750000         Processing RAD-Tag 3760000         Processing RAD-Tag 3770000         Processing RAD-Tag 3780000         Processing RAD-Tag 3790000         Processing RAD-Tag 3800000         Processing RAD-Tag 3810000         Processing RAD-Tag 3820000         Processing RAD-Tag 3830000         Processing RAD-Tag 3840000         Processing RAD-Tag 3850000         Processing RAD-Tag 3860000         Processing RAD-Tag 3870000         Processing RAD-Tag 3880000         Processing RAD-Tag 3890000         Processing RAD-Tag 3900000         Processing RAD-Tag 3910000         Processing RAD-Tag 3920000         Processing RAD-Tag 3930000         Processing RAD-Tag 3940000         Processing RAD-Tag 3950000         Processing RAD-Tag 3960000         Processing RAD-Tag 3970000         Processing RAD-Tag 3980000         Processing RAD-Tag 3990000         Processing RAD-Tag 4000000         Processing RAD-Tag 4010000         Processing RAD-Tag 4020000         Processing RAD-Tag 4030000         Processing RAD-Tag 4040000         Processing RAD-Tag 4050000         Processing RAD-Tag 4060000         Processing RAD-Tag 4070000         Processing RAD-Tag 4080000         Processing RAD-Tag 4090000         Processing RAD-Tag 4100000         Processing RAD-Tag 4110000         Processing RAD-Tag 4120000         Processing RAD-Tag 4130000         Processing RAD-Tag 4140000         Processing RAD-Tag 4150000         Processing RAD-Tag 4160000         Processing RAD-Tag 4170000         Processing RAD-Tag 4180000         Processing RAD-Tag 4190000         Processing RAD-Tag 4200000         Processing RAD-Tag 4210000         Processing RAD-Tag 4220000         Processing RAD-Tag 4230000         Processing RAD-Tag 4240000         Processing RAD-Tag 4250000         Processing RAD-Tag 4260000         Processing RAD-Tag 4270000         Processing RAD-Tag 4280000         Processing RAD-Tag 4290000         Processing RAD-Tag 4300000         Processing RAD-Tag 4310000         Processing RAD-Tag 4320000         Processing RAD-Tag 4330000         Processing RAD-Tag 4340000         Processing RAD-Tag 4350000         Processing RAD-Tag 4360000         Processing RAD-Tag 4370000         Processing RAD-Tag 4380000         Processing RAD-Tag 4390000         Processing RAD-Tag 4400000         Processing RAD-Tag 4410000         Processing RAD-Tag 4420000         Processing RAD-Tag 4430000         Processing RAD-Tag 4440000         Processing RAD-Tag 4450000         Processing RAD-Tag 4460000         Processing RAD-Tag 4470000         Processing RAD-Tag 4480000         Processing RAD-Tag 4490000         Processing RAD-Tag 4500000         Processing RAD-Tag 4510000         Processing RAD-Tag 4520000         Processing RAD-Tag 4530000         Processing RAD-Tag 4540000         Processing RAD-Tag 4550000         Processing RAD-Tag 4560000         Processing RAD-Tag 4570000         Processing RAD-Tag 4580000         Processing RAD-Tag 4590000         Processing RAD-Tag 4600000         Processing RAD-Tag 4610000         Processing RAD-Tag 4620000         Processing RAD-Tag 4630000         Processing RAD-Tag 4640000         Processing RAD-Tag 4650000         Processing RAD-Tag 4660000         Processing RAD-Tag 4670000         Processing RAD-Tag 4680000         Processing RAD-Tag 4690000         Processing RAD-Tag 4700000         Processing RAD-Tag 4710000         Processing RAD-Tag 4720000         Processing RAD-Tag 4730000         Processing RAD-Tag 4740000         Processing RAD-Tag 4750000         Processing RAD-Tag 4760000         Processing RAD-Tag 4770000         Processing RAD-Tag 4780000         Processing RAD-Tag 4790000         Processing RAD-Tag 4800000         Processing RAD-Tag 4810000         Processing RAD-Tag 4820000         Processing RAD-Tag 4830000         Processing RAD-Tag 4840000         Processing RAD-Tag 4850000         Processing RAD-Tag 4860000         Processing RAD-Tag 4870000         Processing RAD-Tag 4880000         Processing RAD-Tag 4890000         Processing RAD-Tag 4900000         Processing RAD-Tag 4910000         Processing RAD-Tag 4920000         Processing RAD-Tag 4930000         Processing RAD-Tag 4940000         Processing RAD-Tag 4950000         Processing RAD-Tag 4960000         Processing RAD-Tag 4970000       Error writing to output file for 'S_concolor_Pool3.1 / S_concolor_Pool3.2'
-Calculating the distribution of cloned read pairs...
-Num Clones	Count
-1	1788325
-2	73874
-3	24907
-4	13859
-5	9205
-6	6778
-7	5435
-8	4427
-9	3689
-10	3240
-11	2677
-12	2544
-13	2305
-14	2126
-15	1906
-16	1783
-17	1604
-18	1502
-19	1406
-20	1358
-21	1249
-22	1244
-23	1146
-24	1079
-25	1045
-26	1027
-27	947
-28	906
-29	863
-30	801
-31	799
-32	714
-33	803
-34	719
-35	724
-36	616
-37	660
-38	655
-39	631
-40	561
-41	597
-42	555
-43	561
-44	542
-45	535
-46	460
-47	512
-48	441
-49	472
-50	437
-51	432
-52	425
-53	423
-54	349
-55	375
-56	361
-57	360
-58	332
-59	322
-60	322
-61	295
-62	309
-63	286
-64	297
-65	305
-66	268
-67	279
-68	247
-69	271
-70	230
-71	228
-72	220
-73	239
-74	230
-75	224
-76	217
-77	244
-78	212
-79	188
-80	193
-81	195
-82	192
-83	191
-84	174
-85	179
-86	140
-87	169
-88	151
-89	149
-90	149
-91	137
-92	146
-93	140
-94	143
-95	133
-96	143
-97	118
-98	117
-99	121
-100	94
-101	129
-102	101
-103	116
-104	105
-105	99
-106	89
-107	112
-108	91
-109	94
-110	81
-111	92
-112	87
-113	78
-114	90
-115	98
-116	69
-117	81
-118	82
-119	77
-120	77
-121	83
-122	83
-123	55
-124	69
-125	60
-126	69
-127	75
-128	53
-129	72
-130	54
-131	63
-132	64
-133	65
-134	58
-135	55
-136	44
-137	48
-138	47
-139	48
-140	41
-141	39
-142	43
-143	41
-144	39
-145	47
-146	39
-147	37
-148	49
-149	32
-150	34
-151	44
-152	37
-153	51
-154	40
-155	31
-156	40
-157	35
-158	29
-159	29
-160	46
-161	32
-162	34
-163	28
-164	31
-165	40
-166	27
-167	26
-168	26
-169	30
-170	15
-171	31
-172	16
-173	23
-174	14
-175	22
-176	26
-177	23
-178	21
-179	17
-180	19
-181	18
-182	18
-183	13
-184	16
-185	28
-186	19
-187	16
-188	21
-189	16
-190	23
-191	18
-192	15
-193	18
-194	14
-195	15
-196	17
-197	10
-198	12
-199	7
-200	7
-201	16
-202	7
-203	7
-204	16
-205	22
-206	11
-207	6
-208	18
-209	11
-210	8
-211	10
-212	8
-213	14
-214	6
-215	12
-216	11
-217	9
-218	8
-219	8
-220	9
-221	9
-222	8
-223	14
-224	10
-225	11
-226	9
-227	9
-228	9
-229	11
-230	7
-231	12
-232	7
-233	9
-234	8
-235	6
-236	6
-237	7
-238	7
-239	7
-240	9
-241	8
-242	4
-243	5
-244	5
-245	3
-246	5
-247	3
-248	2
-249	11
-250	5
-251	7
-252	6
-253	4
-254	2
-255	5
-256	7
-257	3
-258	4
-259	6
-260	8
-261	7
-262	4
-263	4
-264	9
-265	5
-266	3
-267	2
-268	6
-269	5
-270	2
-271	3
-272	2
-273	3
-274	1
-275	1
-276	5
-277	4
-278	4
-279	3
-280	4
-281	7
-282	2
-283	5
-284	4
-285	4
-286	6
-287	1
-288	1
-289	3
-290	1
-291	2
-292	5
-293	3
-294	4
-295	7
-296	3
-297	4
-298	4
-299	4
-300	2
-301	3
-302	4
-303	2
-304	2
-305	5
-306	4
-307	1
-308	3
-309	4
-310	3
-311	5
-312	2
-313	1
-314	1
-315	2
-316	5
-317	3
-319	3
-320	1
-321	3
-322	2
-323	3
-324	2
-325	1
-327	1
-328	3
-329	2
-330	1
-331	1
-333	1
-334	1
-335	1
-336	1
-337	1
-338	3
-339	2
-340	4
-341	2
-342	4
-343	2
-344	1
-345	2
-346	1
-347	2
-348	1
-350	1
-351	2
-352	1
-356	1
-358	2
-359	2
-360	1
-362	2
-363	2
-366	4
-369	2
-370	2
-371	4
-372	1
-373	1
-376	1
-378	2
-380	1
-381	1
-382	1
-386	1
-387	1
-390	2
-394	1
-395	3
-399	1
-401	2
-402	1
-404	1
-407	1
-408	2
-411	1
-413	1
-416	1
-418	1
-419	2
-422	1
-423	1
-435	2
-438	1
-440	1
-443	2
-444	2
-447	1
-448	1
-452	1
-454	1
-457	2
-460	1
-461	1
-462	1
-470	1
-484	1
-488	1
-490	1
-497	1
-517	1
-538	1
-569	1
-570	1
-589	1
-666	1
-4971879 pairs of reads input. 1992405 pairs of reads output, discarded 0 pairs of reads, 59.93% clone reads.
