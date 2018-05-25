@@ -7,9 +7,11 @@
 #BSUB -n 8
 #BSUB -R "span[hosts=1]"
 
+#cargar los programas
 module load samtools/1.0-gcc-4.4.6-s-serial
 module load stacks2/2.0-b8c
 
+#lista de individuos
 
 files="Gs_05_32	
 Gs_05_33	
@@ -108,34 +110,34 @@ SF_08_29
 SF_08_30	
 SF_08_32"
 
-#genoma de referencia:??????
+#genoma de referencia:
 #crear un directorio llamado refs en donde se guarden las secuencias fasta que usaré como genoma de referencia
-#mkdir -p refs
+mkdir -p refs
 
 #declarar variable que enrute mi genoma de referencia
 REF=$TMPU/maria/RADcap/refs/S_concolor_p3final.fasta
 
 ####build an index or database with bwa
-#bwa index $REF
+bwa index $REF
 
 #your source are your individuals fastq
 
-#declarar variable
+#declarar variable que lleva a source (los archivos fastq de cada individuo ya demultiplexados)
 src=/tmpu/pindaro_g/cdm_a/maria/RADcap/src
 
 
 # Align paired-end data with BWA,
-#mkdir -p /tmpu/pindaro_g/cdm_a/maria/RADcap/aligned
-#for sample in $files
-#do
-#bwa mem -t 8 -M $REF $src/Sc_${sample}.1.fq $src/Sc_${sample}.2.fq > $TMPU/maria/RADcap/aligned/${sample}.sam
-#done
+mkdir -p /tmpu/pindaro_g/cdm_a/maria/RADcap/aligned
+for sample in $files
+do
+bwa mem -t 8 -M $REF $src/Sc_${sample}.1.fq $src/Sc_${sample}.2.fq > $TMPU/maria/RADcap/aligned/${sample}.sam
+done
 
 
 ##Comprimir nuestro archivo de alineamiento SAM con SAMTOOLS, Samtools generate "-b" output BAM; -T reference file; -o output filename; -
-#mkdir -p /tmpu/pindaro_g/cdm_a/maria/RADcap/aligned2bam
-#mkdir -p /tmpu/pindaro_g/cdm_a/maria/RADcap/refs_sam
-#cp	  /tmpu/pindaro_g/cdm_a/maria/RADcap/refs/S_concolor_p3final.fasta $TMPU/maria/RADcap/refs_sam
+mkdir -p /tmpu/pindaro_g/cdm_a/maria/RADcap/aligned2bam
+mkdir -p /tmpu/pindaro_g/cdm_a/maria/RADcap/refs_sam
+cp	  /tmpu/pindaro_g/cdm_a/maria/RADcap/refs/S_concolor_p3final.fasta $TMPU/maria/RADcap/refs_sam
 
 #declarar variable
 REF_SAM=/tmpu/pindaro_g/cdm_a/maria/RADcap/refs_sam/S_concolor_p3final.fasta
@@ -143,31 +145,32 @@ REF_SAM=/tmpu/pindaro_g/cdm_a/maria/RADcap/refs_sam/S_concolor_p3final.fasta
 #samtools faidx $REF_SAM
 
 #NEXT WE NEED TO CONVERT THE SAM FILE INTO A BAM FILE
-#for sample in $files
-#do
-#samtools import $REF_SAM.fai $TMPU/maria/RADcap/aligned/${sample}.sam $TMPU/maria/RADcap/aligned2bam/$sample.bam
-#done
+for sample in $files
+do
+samtools import $REF_SAM.fai $TMPU/maria/RADcap/aligned/${sample}.sam $TMPU/maria/RADcap/aligned2bam/$sample.bam
+done
 
 
 #NOW, we need to sort BAM files
-#mkdir -p $TMPU/maria/RADcap/bam_sort
-#for sample in ${files}
-#do
-#samtools sort -O bam  -T $TMPU/maria/RADcap/${sample} -o $TMPU/maria/RADcap/bam_sort/$sample.bam $TMPU/maria/RADcap/aligned2bam/$sample.bam
-#done
+mkdir -p $TMPU/maria/RADcap/bam_sort
+for sample in ${files}
+do
+samtools sort -O bam  -T $TMPU/maria/RADcap/${sample} -o $TMPU/maria/RADcap/bam_sort/$sample.bam $TMPU/maria/RADcap/aligned2bam/$sample.bam
+done
 
-#for sample in ${files}
-#do
-#samtools index $TMPU/maria/RADcap/bam_sort/${sample}.bam
-#done
+for sample in ${files}
+do
+samtools index $TMPU/maria/RADcap/bam_sort/${sample}.bam
+done
 
 
 # Run gstacks to build loci from the aligned paired-end data.
+#In the fifth stage, the gstacks program is executed to assemble and merge paired-end contigs, call variant sites in the population and genotypes in each sample.
+mkdir -p $TMPU/maria/RADcap/gstacks_output
+gstacks -I /tmpu/pindaro_g/cdm_a/maria/RADcap/bam_sort -M ./PopmapConcolorRADCap.txt --paired -O ./gstacks_output -t 16 &> ./gstacks_Ma.log
 
-#mkdir -p $TMPU/maria/RADcap/gstacks_output
-#gstacks -I /tmpu/pindaro_g/cdm_a/maria/RADcap/bam_sort -M ./PopmapConcolorRADCap.txt --paired -O ./gstacks_output -t 16 &> ./gstacks_Ma.log
-
-### Run populations. Calculate Hardy-Weinberg deviation, population statistics,$
+#In the final stage, the populations program is executed, depending on the type of input data.
+## Run populations. Calculate Hardy-Weinberg deviation, population statistics,
 ### smooth the statistics across the genome. Export several output files.
-#populations -P ./gstacks_output/ -M ./PopmapConcolorRADCap.txt -r 0.80 --vcf --genepop --structure -fstats --hwe --smooth -t 8
+populations -P ./gstacks_output/ -M ./PopmapConcolorRADCap.txt -r 0.80 --vcf --genepop --structure -fstats --hwe --smooth -t 8
 
