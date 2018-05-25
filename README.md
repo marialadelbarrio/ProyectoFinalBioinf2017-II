@@ -1,7 +1,7 @@
 # ProyectoFinalBioinf2017-II
 Proyecto Final Curso Bioinformática, Instituto de Ecología UNAM, Dra. Alicia Mastretta
 
-Te following repository includes two folders and files:
+Te following repository includes the following folders and files:
 
 FILES
 
