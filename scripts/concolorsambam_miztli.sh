@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#En este script se alinean los resultados con un genoma de referencia usando BWA, luego se corre gstacks y un módulo de populations
+
 #BSUB -J concolor_p3
 #BSUB -q q_residual
 #BSUB -oo salida
@@ -174,3 +176,6 @@ gstacks -I /tmpu/pindaro_g/cdm_a/maria/RADcap/bam_sort -M ./PopmapConcolorRADCap
 ### smooth the statistics across the genome. Export several output files.
 populations -P ./gstacks_output/ -M ./PopmapConcolorRADCap.txt -r 0.80 --vcf --genepop --structure -fstats --hwe --smooth -t 8
 
+# -P,--in_path — path to the directory containing the Stacks files. -M,--popmap — path to a population map. (Format is 'SAMPLE1POP1\n...'.). --genepop — output results in GenePop format. --structure — output results in Structure format.
+#-r [float] — minimum percentage of individuals in a population required to process a locus for that population. --hwe — calculate divergence from Hardy-Weinberg equilibrium for each locus.
+#
