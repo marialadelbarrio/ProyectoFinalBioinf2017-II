@@ -1,0 +1,16 @@
+WARNING: --paired is deprecated: it is ON by default, see --unpaired instead.
+Logging to './gstacks_output/gstacks.log'.
+Locus/sample distributions will be written to './gstacks_output/gstacks.distribs'.
+
+Configuration for this run:
+  Input mode: reference-based
+  Population map: './PopmapConcolorRADCap.txt'
+  Input files: 96, e.g. '/tmpu/pindaro_g/cdm_a/maria/RADcap/bam_sort/Gs_05_32.bam'
+  Output to: './gstacks_output/gstacks.*'
+  Model: marukilow (var_alpha: 0.05, gt_alpha: 0.05)
+
+Reading BAM headers...
+Processing all loci...
+Aborted. (std::bad_alloc)
+Aborted. (std::bad_alloc)
+Aborted. (std::bad_alloc)

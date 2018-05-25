@@ -1,0 +1,20 @@
+Processing paired-end data.
+Using Phred+33 encoding for quality scores.
+Found 1 paired input file(s).
+Searching for single and paired-end, inlined barcodes.
+Loaded 96 barcodes (7-10bp / 7-10bp).
+Will attempt to recover barcodes with at most 1 / 1 mismatches.
+Processing file 1 of 1 [S_concolor_Pool3.1.1.fq]
+  Reading data from:
+  /tmpu/pindaro_g/cdm_a/maria/RADcap/filtered/S_concolor_Pool3.1.1.fq and
+  /tmpu/pindaro_g/cdm_a/maria/RADcap/filtered/S_concolor_Pool3.2.2.fq
+  Processing RAD-Tags...1M...
+  3984808 total reads; -261756 ambiguous barcodes; -11451 ambiguous RAD-Tags; +814379 recovered; -1087 low quality reads; 3710514 retained reads.
+Closing files, flushing buffers...
+Outputing details to log: '/tmpu/pindaro_g/cdm_a/maria/RADcap/process_p3/process_radtags.filtered.log'
+
+3984808 total sequences
+ 261756 ambiguous barcode drops (6.6%)
+   1087 low quality read drops (0.0%)
+  11451 ambiguous RAD-Tag drops (0.3%)
+3710514 retained reads (93.1%)
